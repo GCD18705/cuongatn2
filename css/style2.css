@@ -1,0 +1,16 @@
+.box-img img{
+	width: 550px;
+	height:300px;
+	box-shadow: 0 20px 20px rgba(0,0,0,0.5);
+	margin: 40px 20px 20px 40px;
+	float: left;
+	border-radius: 10px;
+}
+
+.box-cont{
+	margin-top: 50px;
+	margin: auto;
+	width: 1250px;
+	height: 800px;
+	text-align: center;
+}

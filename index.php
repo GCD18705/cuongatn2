@@ -1,391 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="ie=edge" http-equiv="X-UA-Compatible">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/icofont.css" rel="stylesheet">
-  <link href="css/font-awesome.min.css" rel="stylesheet">
-  <link href="css/owl.carousel.min.css" rel="stylesheet">
-  <link href="css/owl.theme.min.css" rel="stylesheet">
-  <link href="css/slick.css" rel="stylesheet">
-  <link href="css/bttn.min.css" rel="stylesheet" type="text/css">
-  <link href="css/jquery.simplyscroll.css" rel="stylesheet" type="text/css">
-  <link href="css/lightbox.min.css" rel="stylesheet" type="text/css">
-  <link href="css/animate.css" rel="stylesheet">
-  <link href="css/styleforall.css" rel="stylesheet">
-  <title>Fashion Store Home</title>
+<link rel="stylesheet"  href="css/style.css">
+<link rel="stylesheet"  href="css/style2.css">
+<link rel="stylesheet"  href="awefonts/css/font-awe.min.css">
+<link rel="stylesheet"  href="libs/bootsstrap/css/bootsstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
-
+	
 <body>
-  <div class="wrapper">
-
-
-
-
-    <!-- =========== START HEADER TOP ========-->
-    <section class="header_top_area d-none d-md-block">
-      <div class="container">
-        <div class="row">
-         <div class="col-12">
-           <div class="header_top_main">
-             <ul>
-               <li class="email_top"><i class="fa fa-envelope"></i> Email: hunggcd18592@fpt.edu.vn</li>
-               <li class="social_top">
-                 <ul class="d-flex">
-                   <li><a href="javascript:void(0)" title=""><i class="fa fa-facebook"></i></a></li>
-                   <li><a href="javascript:void(0)" title=""><i class="fa fa-instagram"></i></a></li>
-                   <li><a href="javascript:void(0)" title=""><i class="fa fa-google-plus"></i></a></li>
-                   <li><a href="javascript:void(0)" title=""><i class="fa fa-twitter"></i></a></li>
-                 </ul>
-               </li>
-               <li class="language_area">
-                <ul class="d-flex">
-                  <li><a href="javascript:void(0)" title=""><img src="images/home/vi.png" alt=""></a></li>
-                  <li><a href="javascript:void(0)" title=""><img src="images/home/en.png" alt=""></a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- =========== END HEADER TOP ========-->
-
-
-  <!-- =========== START HEADER MAIN ========-->
-  <section class="header__main">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-2 d-none d-xl-block">
-         <div class="logo_area">
-           <a href="javascript:void(0)" title=""><img src="images/home/logo.jpg" alt=""></a>
-         </div>
-       </div>
-       <!-- end logo -->
-       
-       <div class="col-12 col-xl-7">
-         <div class="company_area text-center">
-          <div class="company_name text-border">FASHION STORE <span style="color:#fff200">IN DA NANG</span></div>
-          <div class="company_add">Address: 658 Ngo Quyen, Son Tra District, Da Nang City</div>
-          <div class="company_alt">- 25% OFF EVERYTHING -</div>
-        </div>
-      </div>
-      <!-- end company -->
-
-      <div class="col-xl-3 d-none d-xl-block">
-        <div class="company_phone d-flex">
-          <div class="icon_phone"><img src="images/home/ico-phone.png" alt=""></div>
-          <div class="text_phone">
-            <p class="m-0">Hotline:</p>
-            <p class="m-0 text-border phones">0123 456 789</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- =========== END HEADER MAIN ========-->
-
-
-
-
-
-
-<!-- =========== START MENU ========-->
-<section class="menu_area">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <ul class="menu__main">
-          <li><a href="index.html" title="">Home</a></li>
-          <li><a href="women.html" title="">Women</a></li>
-          <li><a href="men.html" title="">Men</a></li>
-          <li><a href="login.html" title="">Login</a></li>
-          <input type="text" placeholder="Search..." name="Search">
-          <li><button type="submit"><i class="fa fa-search"></i></button></li>
-          <li><a href="ConnectToDB.php" title="">View</a></li>
-          <li><a href="InsertData.php" title="">Insert</a></li>
-          <li><a href="UpdateData.php" title="">Update</a></li>
-          <li><a href="DeleteData.php" title="">Delete</a></li>
-		 
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- =========== END MENU ========-->
-
-
-<!-- =========== START BANNER ========-->
-<section class="banner">
-  <img src="images/home/banner2.jpg" alt="banner">
-</section>
-<!-- =========== END BANNER ========-->
-
-
-
-
-<!-- =========== START POSITION ========-->
-<section class="position_area">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-6">
-        <div class="position__item position__right">
-          <img src="images/home/men.jpg" alt="men">
-          <div class="position_over">
-           <h6 class="text-center text-uppercase">Men</h6>
-         </div>
-         <a href="javascript:void(0)" title=""></a>
-       </div>
-     </div>
-     <!-- end column -->
-
-     <div class="col-12 col-md-6">
-      <div class="position__item position__right">
-        <img src="images/home/women1.jpg" alt="women">
-        <div class="position_over">
-         <h6 class="text-center text-uppercase">Women</h6>
-       </div>
-       <a href="javascript:void(0)" title=""></a>
-     </div>
-   </div>
-   <!-- end column -->
-
-   
- </div>
-</div>
-</section>
-
-<!-- =========== END POSITION ========-->
-
-
-
-
-<!-- =========== START PRODUCT ========-->
-<section class="product_area">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="product__title"><h6 class="text-uppercase text-center mb-5">TRENDING</h6></div>
-      </div>
-
-    </div>
-    <div class="row">
-      <div class="col-6 col-xl-4">
-        <div class="product__item">
-          <article>
-           <div class="article__img mb-4">
-            <a href="javascript:void(0)" title=""><img src="images/home/90s-Nostalgia.jpg" alt="90s Nostalgia"></a>
-          </div>
-
-          <div class="article__content">
-           <h5 class="text-center"><a href="javascript:void(0)" title="" class="h-limit text-uppercase">90s Nostalgia</a></h5>
-         </div>
-       </article>
-     </div>
-   </div>
-   <!-- end column -->
-
-   <div class="col-6 col-xl-4">
-    <div class="product__item">
-      <article>
-       <div class="article__img mb-4">
-        <a href="javascript:void(0)" title=""><img src="images/home/Yellow-Maxi-Coats.jpg" alt="Yellow Maxi Coats"></a>
-      </div>
-
-      <div class="article__content">
-       <h5 class="text-center"><a href="javascript:void(0)" title="" class="h-limit text-uppercase">Yellow Maxi Coats</a></h5>
-     </div>
-   </article>
- </div>
-</div>
-<!-- end column -->
-
-<div class="col-6 col-xl-4">
-  <div class="product__item">
-    <article>
-     <div class="article__img mb-4">
-      <a href="javascript:void(0)" title=""><img src="images/home/Linen-Suits.jpg" alt="Linen Suits"></a>
-    </div>
-
-    <div class="article__content">
-     <h5 class="text-center"><a href="javascript:void(0)" title="" class="h-limit text-uppercase">Linen Suits</a></h5>
-   </div>
- </article>
-</div>
-</div>
-<!-- end column -->
-
-<div class="col-6 col-xl-4">
-  <div class="product__item">
-    <article>
-     <div class="article__img mb-4">
-      <a href="javascript:void(0)" title=""><img src="images/home/Oversized_Shoulder_Jackets.jpg" alt="Oversized Shoulder Jackets"></a>
-    </div>
-
-    <div class="article__content">
-     <h5 class="text-center"><a href="javascript:void(0)" title="" class="h-limit text-uppercase">Oversized Shoulder Jackets</a></h5>
-   </div>
- </article>
-</div>
-</div>
-<!-- end column -->
-
-<div class="col-6 col-xl-4">
-  <div class="product__item">
-    <article>
-     <div class="article__img mb-4">
-      <a href="javascript:void(0)" title=""><img src="images/home/Pastel-Colour-Palettes.jpg" alt="Pastel Colour Palettes"></a>
-    </div>
-
-    <div class="article__content">
-     <h5 class="text-center"><a href="javascript:void(0)" title="" class="h-limit text-uppercase">Pastel Colour Palettes</a></h5>
-   </div>
- </article>
-</div>
-</div>
-<!-- end column -->
-
-<div class="col-6 col-xl-4">
-  <div class="product__item">
-    <article>
-     <div class="article__img mb-4">
-      <a href="javascript:void(0)" title=""><img src="images/home/Animal-Instincts.jpg" alt="Animal Instincts"></a>
-    </div>
-
-    <div class="article__content">
-     <h5 class="text-center"><a href="javascript:void(0)" title="" class="h-limit text-uppercase">Animal Instincts</a></h5>
-   </div>
- </article>
-</div>
-</div>
-<!-- end column -->
-
-
-
-
-
-</div>
-</div>
-</section>
-<!-- =========== END PRODUCT ========-->
-
-
-
-
-<!-- =========== START BRAND ========-->
-<section class="brand_area">
- <div class="container">
-  <div class="row">
-    <div class="col-12">
-      <div class="brand__title text-center">
-        <div class="borders"><img src="images/home/border.png" alt=""></div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-   <div class="col-12">
-     <div class="owl-theme" id="brand">
-      <a href="javascript:void(0)" class="owl__item"><img src="images/home/gucci.jpg" alt="Gucci logo"></a>
-      <a href="javascript:void(0)" class="owl__item"><img src="images/home/levis.jpg" alt="Levi's logo"></a>
-      <a href="javascript:void(0)" class="owl__item"><img src="images/home/LV.jpg" alt="Louis Vuitton logo"></a>
-      <a href="javascript:void(0)" class="owl__item"><img src="images/home/adidas.jpg" alt="Adidas logo"></a>
-      <a href="javascript:void(0)" class="owl__item"><img src="images/home/chanel.png" alt="Chanel logo"></a>
-      <a href="javascript:void(0)" class="owl__item"><img src="images/home/dior.jpg" alt="Dior logo"></a>
-      <a href="javascript:void(0)" class="owl__item"><img src="images/home/burberry.jpg" alt="Burberry logo"></a>
-      <a href="javascript:void(0)" class="owl__item"><img src="images/home/versace.jpg" alt="Versace logo"></a>
-      <a href="javascript:void(0)" class="owl__item"><img src="images/home/lacoste.jpg" alt="Lacoste logo"></a>
-      <a href="javascript:void(0)" class="owl__item"><img src="images/home/H&M.jpg" alt="H&M logo"></a>
-      <a href="javascript:void(0)" class="owl__item"><img src="images/home/fendi.jpg" alt="Fendi logo"></a>
-      <a href="javascript:void(0)" class="owl__item"><img src="images/home/CK.jpg" alt="Calvin Klein logo"></a>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- =========== END  BRAND ========-->
-
-
-
-<!-- =========== START FOOTER ========-->
-
-<footer class="footer_area">
- <div class="container">
-  <div class="row">
-    <div class="col-xl-5 col-12 col-md-7">
-      <div class="footer__add">
-        <div class="footer_title"><h6>ABOUT US</h6></div>
-        <h5>FASHION STORE IN DA NANG</h5>
-        <ul>
-          <li><i class="fa fa-map-marker"></i>Adress: 658 Ngo Quyen, Son Tra District, Da Nang City</li>
-          <li><i class="fa fa-mobile-phone"></i> Hotline: 0123 456 789 - 0123 456 987 - 0987 654 321</li>
-          <li><i class="fa fa-phone"></i> Điện thoại: (098) 8114 2344 - (098) 3434 1213</li>
-          <li><i class="fa fa-envelope"></i> Email: hunggcd18592@fpt.edu.vn - hungnguyendang2000@gmail.com</li>
-        </ul>
-      </div>
-    </div>
-    <!-- end column -->
-    <div class="col-xl-4 col-md-5 d-none d-xl-block d-md-block">
-      <div class="footer__face">
-        <div class="footer_title"><h6>FANPAGE FACEBOOK</h6></div>
-        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=dong%20thoi%20gian&width=340&height=160&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-      </div>
-    </div>
-    <!-- end column -->
-    <div class="col-xl-3 d-none d-xl-block">
-      <div class="footer__maps">
-        <div class="footer_title"><h6>MAPS</h6></div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.8339981225363!2d108.22845741485857!3d16.07410178887794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421825f1045e4f%3A0xcc796e42a4979a!2zNjU4IE5nw7QgUXV54buBbiwgQW4gSOG6o2kgQuG6r2MsIFPGoW4gVHLDoCwgxJDDoCBO4bq1bmcgNTUwMDAw!5e0!3m2!1sen!2s!4v1588965127485!5m2!1sen!2s" width="100%" height="130" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-      </div>
-    </div>
-    <!-- end column -->
-
-  </div>
-  <!-- end row -->
-  <div class="row">
-    <div class="col-12">
-      <div class="coppyright text-center">
-        Copyright 2020 © Fashion Store In Da Nang
-      </div>
-    </div>
-  </div>
-</div>
-</footer>
-
-<!-- =========== END FOOTER ========-->
-
-
-
-
-
-
-
-
-
-
-
-</div><!--  ======================= end wrapper ============================ -->
-<script src="js/jquery3-3-1.min.js">
-</script>
-
-<script src="js/slick.min.js">
-</script>
-<script src="js/bootstrap.min.js">
-</script>
-<script src="js/bootstrap.bundle.min.js">
-</script>
-<script src="js/owl.carousel.min.js">
-</script>
-<script src="js/jquery.simplyscroll.js">
-</script>
-<script src="js/lightbox.min.js">
-</script>
-<script src="js/script.js">
-</script>
+	<header>	
+		<div class="header">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    				<ul class="navbar-nav mr-auto">
+     					<li class="nav-item active">
+        					<a class="nav-link" href="ltc2.html">Home <span class="sr-only">(current)</span></a>
+      					</li>
+      					<li class="nav-item">
+        					<a class="nav-link" href="ltc2.html">Insert</a>
+      					</li>
+
+        				<li class="nav-item">
+        					<a class="nav-link" href="ltc2.html">Update</a>
+      					</li>
+
+      					
+      					<li class="nav-item">
+        					<a class="nav-link disabled" href="#">View</a>
+      					</li>
+   					</ul>
+    				<form class="form-inline my-2 my-lg-0">
+      					<input class="form-control mr-sm-2" type="search" placeholder="Search Products" aria-label="Search">
+      					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    				</form>
+  				</div>
+			</nav>
+
+		</div>
+	</header>
+
+
+		<header>
+		<div class="slideshow-container">
+  			<div class="mySlides fade">
+    			<img src="./images/banner-giay1.jpg" style="width:100%">
+  			</div>
+ 
+  		<div class="mySlides fade">
+    			<img src="./images/banner-giay3.jpg" style="width:100%">
+  		</div>
+ 
+  			<div class="mySlides fade">
+    			<img src="./images/banner-giay4.jpg" style="width:100%">
+  			</div>
+		</div>
+	<br>
+ 
+		<div style="text-align:center">
+  			<span class="dot" onclick="currentSlide(0)"></span> 
+  			<span class="dot" onclick="currentSlide(1)"></span> 
+  			<span class="dot" onclick="currentSlide(2)"></span> 
+		</div>
+	</header>
+
+	<script>
+  //khai báo biến slideIndex đại diện cho slide hiện tại
+  	var slideIndex;
+  // KHai bào hàm hiển thị slide
+  	function showSlides() {
+      	var i;
+     	 var slides = document.getElementsByClassName("mySlides");
+      	var dots = document.getElementsByClassName("dot");
+     	 for (i = 0; i < slides.length; i++) {
+         	slides[i].style.display = "none";  
+      	}
+      	for (i = 0; i < dots.length; i++) {
+          	dots[i].className = dots[i].className.replace(" active", "");
+      	}
+ 
+      		slides[slideIndex].style.display = "block";  
+      		dots[slideIndex].className += " active";
+      //chuyển đến slide tiếp theo
+      		slideIndex++;
+      //nếu đang ở slide cuối cùng thì chuyển về slide đầu
+      		if (slideIndex > slides.length - 1) {slideIndex = 0}    
+      //tự động chuyển đổi slide sau 4s
+      		setTimeout(showSlides, 4000);
+  		}
+  //mặc định hiển thị slide đầu tiên 
+  		showSlides(slideIndex = 0);
+
+  		function currentSlide(n) {showSlides(slideIndex = n);}
+	</script>
+
+
+
+<header class="containt">
+	<div class="box-cont">
+
+		<div class="box-img"><a href="ltc.html"><img src="./images/G1.png"></a></div>
+		<div class="box-img"><a href="ltc.html"><img src="./images/G2.png"></a></div>
+		<div class="box-img"><a href="ltc.html"><img src="./images/G3.png"></a></div>
+		<div class="box-img"><a href="ltc.html"><img src="./images/G4.png"></a></div>
+
+	</div>
+</header>
+
+	<footer class="footer">
+			<div class="grid-row">
+				<div class="grid-cloumn1">
+					<ul class="footer-list">
+						<li><img src="images/logo.png"></li>
+						<li><a href="" class="footer-item_link">Address: 345 Ngô Quyền, Sơn Trà, Đà Đẵng, Việt Nam </a></li>
+						<li><a href="" class="footer-item_link">Hotline: 0123456789</a></li>
+					</ul>
+				</div>
+				<div class="grid-cloumn2">		
+					<ul class="footer-list">
+						<h5><strong> INFOMATION</strong></h5>	
+						<li class="footer-item">
+							<a href="" class="footer-item_link">Introduce</a>
+						</li>
+						<li class="footer-item">
+							<a href="" class="footer-item_link">Privacy Policy</a>
+						</li>
+						<li class="footer-item">
+							<a href="" class="footer-item_link">Shopping guide</a>
+						</li>
+						<li class="footer-item">
+							<a href="" class="footer-item_link">Forwarding and payment</a>
+						</li>
+						<li class="footer-item">
+							<a href="" class="footer-item_link">Return and warranty</a>
+						</li>
+						<li class="footer-item">
+							<a href="" class="footer-item_link">Instructions for choosing a size</a>
+						</li>
+						<li class="footer-item">
+							<a href="" class="footer-item_link">News & Blog</a>
+						</li>
+					</ul>
+				</div>
+				
+				
+				<div class="grid-cloumn3">
+					<div class="social">
+						<ul >
+							<h5><strong>CONTACT WITH US </strong></h5>
+								<li class="social"> <a href="https://www.facebook.com/cuong.luong.779857" target="_blank"><img src="images/logofb.png"></a></li>
+								<li class="social"> <a href="" target="_blank"><img src="images/logogm.jpg"></a></li>
+								<li class="social"> <a href="" target="_blank"><img src="images/logoz.jpg"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+	</footer>
 </body>
-
 </html>
