@@ -23,16 +23,16 @@
         					<a class="nav-link" href="ltc2.html">Home <span class="sr-only">(current)</span></a>
       					</li>
       					<li class="nav-item">
-        					<a class="nav-link" href="ltc2.html">Insert</a>
+                                            <a class="nav-link" href="InsertData.php">Insert</a>
       					</li>
 
         				<li class="nav-item">
-        					<a class="nav-link" href="ltc2.html">Update</a>
+                                            <a class="nav-link" href="UpdateData.php">Update</a>
       					</li>
 
       					
       					<li class="nav-item">
-        					<a class="nav-link disabled" href="#">View</a>
+                                            <a class="nav-link disabled" href="DeleteData.php">Delete</a>
       					</li>
    					</ul>
     				<form class="form-inline my-2 my-lg-0">
