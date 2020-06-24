@@ -29,7 +29,9 @@
         				<li class="nav-item">
                                             <a class="nav-link" href="UpdateData.php">Update</a>
       					</li>
-
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="ConnectToDB.php">View</a>
+      					</li>
       					
       					<li class="nav-item">
                                             <a class="nav-link disabled" href="DeleteData.php">Delete</a>
