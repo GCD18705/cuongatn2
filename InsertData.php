@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-<title>Insert data to PostgreSQL with php - creating a simple web application</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<style>
-li {
-list-style: none;
-}
-</style>
-</head>
+        <title>ATN STORE</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <style>
+            li {
+                list-style: none;
+                }
+        </style>
+        <link rel ="stylesheet" href="css/style2.css">
+    </head>
 <body>
-<h1>INSERT DATA TO DATABASE</h1>
-<h2>Enter data into table</h2>
+        <h1>INSERT DATA TO DATABASE</h1>
+        <h2>Enter data into table</h2>
 <ul>
     <form name="InsertData" action="InsertData.php" method="POST" >
-<li>ID:</li><li><input type="text" name="id" /></li>
-<li>Name:</li><li><input type="text" name="name" /></li>
-<li>Price:</li><li><input type="text" name="price" /></li>
-<li><input type="submit" value="Submit" /></li>
-</form>
+        <li>ID:</li>
+        <li><input type="text" name="ID" /></li>
+        <li>Name:</li>
+        <li><input type="text" name="Name" /></li>
+        <li>Price:</li>
+        <li><input type="text" name="Price" /></li>
+        <li><input type="submit" value="Submit" /></li>
+    </form>
 </ul>
 
 <?php
