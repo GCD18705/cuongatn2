@@ -1,18 +1,18 @@
-.Insertbase {
+.InsertData {
     background-image: url(../images/FotoJet.jpg);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.Insertbase h1 {
+.InsertData h1 {
     color: #ffffff;
 }
 
-.Insertbase h2 {
+.InsertData h2 {
     color: #ffffff;
 }
 
-.Insertbase li {
+.InsertData li {
     color: #ffffff;
 }
